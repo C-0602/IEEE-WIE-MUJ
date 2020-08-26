@@ -9,7 +9,7 @@ https://templatemo.com/tm-508-power
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Poppins', sans-serif;
     outline: none!important;
 }
 
@@ -144,14 +144,15 @@ p {
 
 .logo{
   height: 50px;
-  width: 80%;
+  width: 80px;
 }
 
 .navbar-brand{
-  background-color: black;
+  background-color: white;
   height: max-content;
-  margin-left: 10px;
-  width: 100px;
+  
+  width: 10%;
+   
 }
 
 .menu-first ul li {
@@ -195,10 +196,12 @@ font-family: 'Poppins', sans-serif;
 }
 
 .banner {
-  background-image: url(../img/women2.jpg);
+  background-image: url(../img/darkwomen.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  opacity: .8;
+  
 }
 
 .banner-content {
@@ -427,16 +430,16 @@ font-family: 'Poppins', sans-serif;
 }
 
 .portfolio-section {
-  background-color: #363e50;
+  background-color: #DDA0DD;
   padding-bottom: 80px;
 }
 
 #portfolio .section-heading h4 {
-  color: #fff;
+  color: black;
 }
 
 #portfolio .section-heading p {
-  color: #aaa;
+  color: black;
 }
 
 #portfolio .portfolio-item img {
@@ -504,7 +507,7 @@ font-family: 'Poppins', sans-serif;
 }
 
 #blog .tabs .active {
-  background-color: #46bae2;
+  background-color: #DDA0DD;
   color: #fff!important;
 }
 #blog .tabs .active .info-post li {
@@ -543,16 +546,16 @@ font-family: 'Poppins', sans-serif;
 }
 .tabgroup .text-content span {
   font-size: 13px;
-  color: #33c1cf;
+  color: #752f8b;
 }
 .tabgroup .text-content a {
   font-size: 13px;
-  color: #33c1cf;
+  color: black;
   text-decoration: none;
 }
 .tabgroup .text-content p {
   margin-top: 17px;
-  color: #7a7a7a;
+  color: black;
 }
 
 .tabgroup .text-content .primary-button {
@@ -562,6 +565,32 @@ font-family: 'Poppins', sans-serif;
 
 .tabgroup .text-content .primary-button a {
   color: #fff;
+}
+
+#blog .read a {
+  
+  position: absolute;
+   height: 45px;
+   width: 30%;
+   margin-top: -20px;
+   margin-bottom: 50px;
+  top: 105%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  background-color: #a4508b;
+background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+font-family: 'Poppins', sans-serif;
+padding-top: 10px;
+
+  border-radius: 24px;
+  border: none;
+  color: white;
+}
+
+a .medium{
+  text-decoration: none;
+  color: white;
 }
 
 .clearfix:after {
@@ -587,7 +616,7 @@ font-family: 'Poppins', sans-serif;
 }
 
 #blog .info-post li i {
-  color: #46bae2;
+  color: #752f8b;
   margin-right: 5px;
 }
 
@@ -598,6 +627,7 @@ font-family: 'Poppins', sans-serif;
   background-color: #fff;
   text-align: left;
   padding-bottom: 100px;
+  justify-content: center;
 }
 
 #contact-us .section-heading {
@@ -644,34 +674,37 @@ font-family: 'Poppins', sans-serif;
 }
 
 #contact button {
-    padding: 13px 20px;
+  padding: 13px 20px;
   letter-spacing: 0.5px;
-  background-color: #46bae2;
-  color: #fff;
   text-transform: uppercase;
   font-size: 13px;
   font-weight: 700;
   text-decoration: none;
-  border-radius: 0px;
+  background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+  font-family: 'Poppins', sans-serif;
+  border-radius: 24px;
+  border: none;
+  color: white;
 }
 
 
 
 footer {
-  background-color: #363e50;
+  background-color: #752f8b;
   padding: 0px 0px;
 }
 
 footer p {
-  font-size: 14px;
+  font-size: 16px;
   text-transform: uppercase;
   color: #fff;
   margin-bottom: 0px;
   padding: 75px 0px;
+  font-family: 'Poppins', sans-serif;
 }
 
 footer a {
-  color: #9CF;
+  color: #be5683;
 }
 
 footer a:hover {
@@ -705,11 +738,11 @@ footer .social-icons a:hover {
 
 footer .back-to-top a {
   text-align: center;
-  background-color: #46bae2;
+  background-color: #DDA0DD;
   display: inline-block;
   width: 100%;
   padding: 60px 0px;
-  color: #fff;
+  color: black;
   font-size: 15px;
   text-transform: uppercase;
   font-weight: 700;
