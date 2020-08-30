@@ -1,10 +1,4 @@
-/*
 
-Power Template
-
-https://templatemo.com/tm-508-power
-
-*/
 
 * {
   margin: 0;
@@ -115,10 +109,12 @@ p {
   -webkit-transition: all 150ms ease-in-out;
   -moz-transition: all 150ms ease-in-out;
   transition: all 150ms ease-in-out;
+  
 }
 
 .navbar {
   margin-bottom: 0px;
+  
 }
 
 .navbar-header {
@@ -309,10 +305,22 @@ p {
   background-attachment: fixed;
 }
 
+.section-heading p{
+color: black;
+padding: 5%;
+}
+
 #about .service-item {
-  text-align: center;
+  text-align: right;
   margin: 0px -15px;
   padding: 120px 45px;
+}
+
+#about .wrapper .row ul{
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+  justify-content: center;
 }
 
 #about .service-item h4 {
@@ -326,7 +334,7 @@ p {
 
 #about .service-item p {
   margin-bottom: 0px;
-  color: #fff;
+  color: black;
 }
 
 #about .first-service {
@@ -355,16 +363,18 @@ p {
 
 .what-we-do {
   background-color: #fff;
-  padding-bottom: 80px;
+  padding-bottom: 50px;
 }
 
 .what-we-do .tabs li a {
   text-decoration: none;
   color: #121212;
+  padding-right: 25%;
+  padding-left: 25%;
 }
 
 .what-we-do .tabs .active .list-item {
-  background-color: #f2745f !important;
+  background-color: #DDA0DD !important;
   color: #fff !important;
 }
 
@@ -432,21 +442,42 @@ p {
   text-align: center;
 }
 
+
 #portfolio .item {
   margin: 0px 5px;
 }
 
 .portfolio-section {
-  Background-color:#752f8b;
+  background-color:#DDA0DD;
   padding-bottom: 80px;
 }
 
 #portfolio .section-heading h4 {
-  color: white;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding-bottom: 10px;
+}
+
+#portfolio .section-heading h4::after{
+  content: '';
+  background: black;
+  display: block;
+  height: 3px;
+  width: 150px;
+  margin: 10px auto;
 }
 
 #portfolio .section-heading p {
   color: black;
+  padding-right: 10%;
+  padding-left: 10%;
+  width: max-content;
+}
+
+#portfolio .row{
+  margin-top: 5px;
 }
 
 #portfolio .portfolio-item img {
@@ -455,7 +486,7 @@ p {
 }
 
 .owl-pagination {
-  margin-top: 30px;
+  margin-top: 25px;
   opacity: 1;
   display: inline-block;
 }
@@ -470,7 +501,7 @@ p {
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 20px;
-  background: #46bae2;
+  background: #752f8b;
 }
 
 
@@ -481,7 +512,22 @@ p {
 
 #blog .section-heading {
   text-align: center;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #333;
+  padding-bottom: 10px;
 }
+
+#blog .section-heading::after{
+  content: '';
+  background: #333;
+  display: block;
+  height: 3px;
+  width: 150px;
+  margin: 10px auto;
+  
+}
+
 
 .wrapper {
   text-align: left;
@@ -556,6 +602,7 @@ p {
   color: #121212;
   margin-top: 0px;
   margin-bottom: 15px;
+
 }
 
 .tabgroup .text-content span {
