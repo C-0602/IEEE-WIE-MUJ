@@ -437,12 +437,12 @@ p {
 }
 
 .portfolio-section {
-  background-color: #DDA0DD;
+  Background-color:#752f8b;
   padding-bottom: 80px;
 }
 
 #portfolio .section-heading h4 {
-  color: black;
+  color: white;
 }
 
 #portfolio .section-heading p {
@@ -637,6 +637,7 @@ a .medium {
 }
 
 
+<<<<<<< HEAD
 .team{
   margin: 75px 0;
   background-color: #DDA0DD;
@@ -748,6 +749,9 @@ a .medium {
 .img-box a li .fa:hover{
   transition: 0.35s ease;
  }
+=======
+
+>>>>>>> 9213713af5285528f15e0ab75b7fc07d53c09cba
 
 #contact-us {
   background-color: #fff;
