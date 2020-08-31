@@ -1,10 +1,4 @@
-/*
 
-Power Template
-
-https://templatemo.com/tm-508-power
-
-*/
 
 * {
   margin: 0;
@@ -115,10 +109,12 @@ p {
   -webkit-transition: all 150ms ease-in-out;
   -moz-transition: all 150ms ease-in-out;
   transition: all 150ms ease-in-out;
+  
 }
 
 .navbar {
   margin-bottom: 0px;
+  
 }
 
 .navbar-header {
@@ -309,10 +305,22 @@ p {
   background-attachment: fixed;
 }
 
+.section-heading p{
+color: black;
+padding: 5%;
+}
+
 #about .service-item {
-  text-align: center;
+  text-align: right;
   margin: 0px -15px;
   padding: 120px 45px;
+}
+
+#about .wrapper .row ul{
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+  justify-content: center;
 }
 
 #about .service-item h4 {
@@ -326,7 +334,7 @@ p {
 
 #about .service-item p {
   margin-bottom: 0px;
-  color: #fff;
+  color: black;
 }
 
 #about .first-service {
@@ -355,16 +363,18 @@ p {
 
 .what-we-do {
   background-color: #fff;
-  padding-bottom: 80px;
+  padding-bottom: 50px;
 }
 
 .what-we-do .tabs li a {
   text-decoration: none;
   color: #121212;
+  padding-right: 25%;
+  padding-left: 25%;
 }
 
 .what-we-do .tabs .active .list-item {
-  background-color: #f2745f !important;
+  background-color: #DDA0DD !important;
   color: #fff !important;
 }
 
@@ -432,21 +442,42 @@ p {
   text-align: center;
 }
 
+
 #portfolio .item {
   margin: 0px 5px;
 }
 
 .portfolio-section {
-  background-color: #DDA0DD;
+  background-color:#DDA0DD;
   padding-bottom: 80px;
 }
 
 #portfolio .section-heading h4 {
   color: black;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding-bottom: 10px;
+}
+
+#portfolio .section-heading h4::after{
+  content: '';
+  background: black;
+  display: block;
+  height: 3px;
+  width: 150px;
+  margin: 10px auto;
 }
 
 #portfolio .section-heading p {
   color: black;
+  padding-right: 10%;
+  padding-left: 10%;
+  width: max-content;
+}
+
+#portfolio .row{
+  margin-top: 5px;
 }
 
 #portfolio .portfolio-item img {
@@ -455,7 +486,7 @@ p {
 }
 
 .owl-pagination {
-  margin-top: 30px;
+  margin-top: 25px;
   opacity: 1;
   display: inline-block;
 }
@@ -470,7 +501,7 @@ p {
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 20px;
-  background: #46bae2;
+  background: #752f8b;
 }
 
 
@@ -481,7 +512,22 @@ p {
 
 #blog .section-heading {
   text-align: center;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #333;
+  padding-bottom: 10px;
 }
+
+#blog .section-heading::after{
+  content: '';
+  background: #333;
+  display: block;
+  height: 3px;
+  width: 150px;
+  margin: 10px auto;
+  
+}
+
 
 .wrapper {
   text-align: left;
@@ -556,6 +602,7 @@ p {
   color: #121212;
   margin-top: 0px;
   margin-bottom: 15px;
+
 }
 
 .tabgroup .text-content span {
@@ -637,7 +684,117 @@ a .medium {
 }
 
 
+.team{
+  margin: 75px 0;
+  background-color: #DDA0DD;
+  
+}
 
+.team h1{
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #333;
+  padding-bottom: 10px;
+}
+
+.team h1::after{
+  content: '';
+  background: #333;
+  display: block;
+  height: 3px;
+  width: 150px;
+  margin: 10px auto;
+}
+
+.profile{
+  margin-top: 25px;
+}
+
+.profile .img-box{
+  opacity: 1;
+  display: block;
+  position: relative;
+  width: auto;
+  
+  
+}
+
+.profile .img-box img{
+  height: 50vh;
+  width: 100%;
+}
+
+.profile h2{
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.profile h3{
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.img-box:after{
+  content: '';
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.img-box ul{
+  margin: 0;
+  padding-bottom: 20px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 30%;
+  display: block;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+}
+
+.img-box ul li{
+  width: 30px;
+  height: 30px;
+  border: 1px solid #fff ;
+  border-radius: 50%;
+  margin: 3px;
+  padding: 7px ;
+  display: inline-block;
+}
+
+.img-box ul li:hover{
+  border-radius: 60%;
+}
+
+
+
+.img-box a{
+  color: #fff;
+}
+
+.img-box:hover:after{
+  opacity: 1;
+}
+
+.img-box:hover ul{
+  opacity: 1 ;
+}
+
+.img-box a li .fa:hover{
+ color:  #752f8b;
+}
+
+.img-box a li .fa:hover{
+  transition: 0.35s ease;
+ }
 
 #contact-us {
   background-color: #fff;
