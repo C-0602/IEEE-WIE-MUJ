@@ -389,6 +389,7 @@ padding: 5%;
   padding: 40px 0px;
   margin: 15px 0px;
   transition: all 0.5s;
+  border-radius: 8px;
 }
 
 .what-we-do .list-item .icon {
