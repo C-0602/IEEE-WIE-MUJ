@@ -681,14 +681,63 @@ a .medium {
   margin-right: 5px;
 }
 
+.container{
+  max-width: 1140px;
+  margin: auto;
+  position: relative;
+  min-height: 1px;
+}
 
+#ec{
+  min-height: 100vh;
+  padding: 60px 15px;
+  background: #DDA0DD;
+}
+
+#ec h4 {
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding-bottom: 2px;
+}
+
+#ec h4::after{
+  content: '';
+  background: black;
+  display: block;
+  height: 3px;
+  width: 150px;
+  margin: 10px auto;
+}
+
+#ec h5{
+  color: black;
+  text-align: center;
+  letter-spacing: 2px;
+  padding-bottom: 10px;
+  margin-top: -10px;
+}
+
+
+<<<<<<< HEAD
 .team {
+=======
+
+
+
+#team{
+>>>>>>> 7a7041a2e5804bf6ca46fccf9188caf8aa42aa73
   margin: 75px 0;
   background-color: #DDA0DD;
 
 }
 
+<<<<<<< HEAD
 .team h1 {
+=======
+#ec .section-heading {
+>>>>>>> 7a7041a2e5804bf6ca46fccf9188caf8aa42aa73
   text-align: center;
   font-weight: bold;
   letter-spacing: 2px;
@@ -696,7 +745,87 @@ a .medium {
   padding-bottom: 10px;
 }
 
+<<<<<<< HEAD
 .team h1::after {
+=======
+#ec .section-heading::after{
+  content: '';
+  background: #333;
+  display: block;
+  height: 3px;
+  width: 150px;
+  margin: 10px auto;
+  
+}
+
+#ec .card{
+  width: 25%;
+  float: left;
+  padding: 0px 15px;
+}
+
+#ec .card .box{
+  padding: 15px;
+}
+
+#ec .card .box img{
+  width: 230px;
+  display: block;
+  margin: auto;
+  opacity: 1;
+  height: 300px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+#ec .card .box .middle{
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.box:hover .image {
+  opacity: 0.3;
+}
+
+ 
+.box:hover .middle {
+  opacity: 1;
+}
+
+
+
+/*responsive*/
+
+@media(max-width: 991px){
+  #ec .card{
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+
+@media(max-width: 550px  ){
+  #ec .card{
+    width: 100%;
+  }
+}
+
+
+#team h1{
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #333;
+  padding-bottom: 10px;
+}
+
+#team h1::after{
+>>>>>>> 7a7041a2e5804bf6ca46fccf9188caf8aa42aa73
   content: '';
   background: #333;
   display: block;
@@ -713,6 +842,7 @@ a .medium {
   opacity: 1;
   display: block;
   position: relative;
+<<<<<<< HEAD
   width: auto;
 
 
@@ -720,6 +850,14 @@ a .medium {
 
 .profile .img-box img {
   height: 50vh;
+=======
+  max-width: 100%;;
+
+}
+
+.profile .img-box img{
+  height: 40vh;
+>>>>>>> 7a7041a2e5804bf6ca46fccf9188caf8aa42aa73
   width: 100%;
 }
 
