@@ -581,6 +581,7 @@ padding: 5%;
 #first-tab-group img {
   width: 100%;
   overflow: hidden;
+  margin-top: -40px;
 }
 
 .tabgroup .text-content {
@@ -588,7 +589,7 @@ padding: 5%;
   color: #fff;
   padding: 25px;
   text-align: left;
-  margin-top: -10px;
+  margin-top: 15px;
   margin-left: 10px;
   margin-right: 10px;
   position: relative;
@@ -622,9 +623,9 @@ padding: 5%;
   color: black;
 }
 
-.tabgroup .text-content .primary-button {
-  margin-bottom: 15px;
-  margin-top: 30px;
+.tabgroup .text-content .more{
+  font-weight: 800;
+  color: black;
 }
 
 .tabgroup .text-content .primary-button a {
@@ -862,11 +863,15 @@ a .medium {
     width: 100%;
   }
 
+  .inbox ul{
+    left: 91px;
+  }
+
   
 }
 
 
-#team h1{
+/* #team h1{
   text-align: center;
   font-weight: bold;
   letter-spacing: 2px;
@@ -988,6 +993,168 @@ a .medium {
   }
 
   
+} */
+
+
+#website{
+  margin: 75px 0;
+  background-color: #DDA0DD;
+  
+}
+
+#website h4 {
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding-bottom: 2px;
+  margin-top: -10px;
+}
+
+#website .section-heading {
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #333;
+  padding-bottom: 10px;
+}
+
+#website .section-heading::after{
+  content: '';
+  background: #333;
+  display: block;
+  height: 3px;
+  width: 150px;
+  margin: 10px auto;
+  
+}
+
+#website .card{
+  width: 25%;
+  float: left;
+  padding: 0px 15px;
+  
+}
+
+#website .card .box:hover{
+  margin-top: -15px;
+  box-shadow: 0px 0px 40px black;
+
+}
+
+#website .card .box{
+  padding: 15px;
+  justify-content: center;
+  transition: box-shadow 1s ease;
+
+}
+
+#website .card .box img{
+  width: 230px;
+  display: block;
+  margin: auto;
+  opacity: 1;
+  height: 300px;
+  transition: .5s ease;
+ 
+}
+
+.inbox:after{
+  content: '';
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: relative;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  transition: ease-in 1s;
+}
+
+.box .inbox ul{
+  margin: 0;
+  padding-bottom: 20px 0;
+  position: relative;
+  z-index: 1;
+  bottom: 30%;
+  display:block;
+  opacity: 0;
+  transform: translateY(-100%);
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  width: 230px;
+  transition: all 0.5s ease;
+
+}
+
+.inbox ul li{
+  width: 30px;
+  height: 30px;
+  border: 1px solid #fff ;
+  border-radius: 50%;
+  margin: 3px;
+  padding: 7px ;
+  display: inline-block;
+  justify-content: center;
+}
+
+.inbox ul .social{
+  display: flex;
+  justify-content: center;
+}
+
+.inbox ul li:hover{
+  border-radius: 60%;
+}
+
+
+
+.inbox a{
+  color: #fff;
+}
+
+.inbox:hover:after{
+  opacity: 1;
+  transition: ease-in 1s;
+}
+
+.inbox:hover ul{
+  opacity: 0.7 ;
+}
+
+.inbox a li .fa:hover{
+ color:  #752f8b;
+}
+
+.inbox a li .fa:hover{
+  transition: 0.35s ease;
+ }
+
+
+
+
+
+/*responsive*/
+
+@media(max-width: 991px){
+  #website .card{
+    width: 50%;
+    margin-bottom: 30px;
+  }
+
+}
+
+@media(max-width: 550px  ){
+  #website .card{
+    width: 100%;
+  }
+
+  .inbox ul{
+    left: 91px;
+  }
+
+  
 }
 
 #contact-us {
@@ -1089,6 +1256,10 @@ footer .social-icons {
 footer .social-icons li {
   display: inline;
   margin: 0px 10px;
+}
+
+.medium{
+  border-radius: 6px;
 }
 
 footer .social-icons a {
