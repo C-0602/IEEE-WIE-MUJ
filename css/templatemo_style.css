@@ -677,7 +677,7 @@ text-align: center;
   position: absolute;
   height: 45px;
   width: 30%;
-  margin-top: -20px;
+  margin-top: -50px;
   margin-bottom: 50px;
   top: 105%;
   left: 50%;
@@ -724,6 +724,13 @@ a .medium {
   color: #752f8b;
   margin-right: 5px;
 }
+
+
+
+@media(max-width: 550px){
+  #blog .read a{
+    transform: translateY(-60%) !important;
+  }
 
 
 .container{
