@@ -9,7 +9,7 @@ a {
   text-decoration: none !important;
 }
 
-body {
+html, body {
   overflow-x: hidden;
 }
 
@@ -60,6 +60,8 @@ p {
     float: left;
   }
 }
+
+
 
 
 
@@ -926,6 +928,12 @@ a .medium {
 
   #ec .container .card ul {
     margin-left: -17px;
+  }
+
+  @media(max-width: 425px){
+    #ec .container .card ul {
+      margin-left: -45px;
+    }
   }
 
 
