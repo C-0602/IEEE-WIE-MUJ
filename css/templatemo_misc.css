@@ -35,6 +35,7 @@
   font-weight: normal;
   font-style: normal;
 }
+
 /* FlexSlider Necessary Styles
 *********************************/
 .flexslider {
@@ -42,7 +43,7 @@
   padding: 0;
 }
 
-.flexslider .slides > li {
+.flexslider .slides>li {
   display: none;
   -webkit-backface-visibility: hidden;
 }
@@ -78,7 +79,7 @@ html[xmlns] .slides {
 /* No JavaScript Fallback */
 /* If you are not using another script, such as Modernizr, make sure you
  * include js that eliminates this class on page load */
-.no-js .slides > li:first-child {
+.no-js .slides>li:first-child {
   display: block;
 }
 
@@ -153,7 +154,8 @@ html[xmlns] .slides {
   right: 10px;
 }
 
-.flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover {
+.flexslider:hover .flex-next:hover,
+.flexslider:hover .flex-prev:hover {
   opacity: 1;
 }
 
@@ -287,6 +289,7 @@ html[xmlns] .slides {
     right: 10px;
   }
 }
+
 #lightbox {
   cursor: pointer;
   position: fixed;
@@ -309,7 +312,7 @@ html[xmlns] .slides {
   border-radius: 1px;
 }
 
-body.blurred > * {
+body.blurred>* {
   -webkit-filter: blur(2px);
   -webkit-transform: translate3d(0, 0, 0);
 }

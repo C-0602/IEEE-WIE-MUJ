@@ -672,7 +672,7 @@ p {
   width: 30%;
   margin-top: -20px;
   margin-bottom: 50px;
-  top: 105%;
+  top: 103%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-weight: bold;
@@ -922,7 +922,7 @@ a .medium {
   }
 
   #ec .container .container2 .card ul {
-    margin-left: -91px;
+    margin-left: -83px;
   }
 
   #ec .container .card ul {
@@ -1212,7 +1212,7 @@ a .medium {
   }
 
   .inbox ul {
-    left: 91px;
+    left: 83px;
   }
 
 
