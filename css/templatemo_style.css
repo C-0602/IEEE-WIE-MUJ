@@ -906,9 +906,12 @@ a .medium {
     width: 50%;
     margin-bottom: 30px;
   }
+}
 
-
-
+@media(max-width: 768px){
+  #ec .container .container1 .card ul{
+    margin-left: 35px;
+  }
 }
 
 @media(max-width: 550px) {
@@ -922,24 +925,9 @@ a .medium {
     justify-content: center;
   }
 
-  #ec .container .container2 .card ul {
-    margin-left: -83px;
-  }
-
-  #ec .container .card ul {
-    margin-left: -17px;
-  }
-
-  @media(max-width: 425px){
-    #ec .container .card ul {
-      margin-left: -45px;
-    }
-  }
-
-
-
-
 }
+
+
 
 
 /* #team h1{
@@ -1212,6 +1200,8 @@ a .medium {
   }
 
 }
+
+
 
 @media(max-width: 550px) {
   #website .card {
