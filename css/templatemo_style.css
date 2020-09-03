@@ -128,6 +128,12 @@ p {
   -webkit-transition: all 150ms ease-in-out;
   -moz-transition: all 150ms ease-in-out;
   transition: all 150ms ease-in-out;
+  
+  
+}
+
+.logo:focus{
+  background-color: white;
 }
 
 #menu-wrapper {
@@ -193,7 +199,6 @@ p {
 }
 
 .navbar-inverse .navbar-toggle {
-  border-color: ;
   background-color: #DDA0DD;
   right: 15px;
 }
@@ -240,10 +245,7 @@ p {
   color: white;
 }
 
-.banner-content button:hover {
-  font-size: large;
-  transition: ease-out 250ms;
-}
+
 
 
 
@@ -919,6 +921,14 @@ a .medium {
     width: 100%;
   }
 
+  #ec .container .container1 .card ul{
+    margin-left: 60px;
+  }
+
+  #ec .container .container2 .card ul{
+    margin-left: -35px;
+  }
+
   #ec .container2 .card {
     width: 100%;
     display: flex;
@@ -927,6 +937,11 @@ a .medium {
 
 }
 
+@media(max-width: 425px){
+  .box .inbox ul{
+    margin-left: 0px !important;
+  }
+}
 
 
 
@@ -1213,6 +1228,18 @@ a .medium {
   }
 
 
+}
+
+@media(max-width: 768px){
+  .inbox ul{
+    left: 35px;
+  };
+}
+
+@media(max-width:550px){
+  .inbox ul{
+    left: 110px;
+  };
 }
 
 #contact-us {
