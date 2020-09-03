@@ -155,7 +155,7 @@ p {
   background-color: white;
   height: max-content;
 
-  width: 10%;
+  width: 12%;
 
 }
 
@@ -212,6 +212,18 @@ p {
 
 }
 
+@media(max-width: 769px){
+  
+  .navbar-brand{
+    width: 13%;
+    
+  }
+
+  .logo{
+    width: 78px;
+  }
+  
+}
 .banner-content {
   text-align: center;
   padding: 280px 0px 200px 0px;
@@ -824,7 +836,7 @@ a .medium {
 .box .inbox ul {
   margin: 0;
   padding-bottom: 20px 0;
-  position: relative;
+  position: absolute;
   z-index: 1;
   bottom: 30%;
   display: block;
@@ -833,7 +845,7 @@ a .medium {
   background-color: black;
   justify-content: center;
   align-items: center;
-  width: 230px;
+ 
   transition: all 0.5s ease;
 
 }
@@ -854,9 +866,6 @@ a .medium {
   justify-content: center;
 }
 
-.inbox ul li:hover {
-  border-radius: 60%;
-}
 
 
 
@@ -910,23 +919,23 @@ a .medium {
   }
 }
 
-@media(max-width: 768px){
+@media(max-width: 770px){
+
   #ec .container .container1 .card ul{
     margin-left: 35px;
+    
   }
 }
 
+
+
+
+
 @media(max-width: 550px) {
-  #ec .card {
+  #ec .container1 .card {
     width: 100%;
-  }
-
-  #ec .container .container1 .card ul{
-    margin-left: 60px;
-  }
-
-  #ec .container .container2 .card ul{
-    margin-left: -35px;
+    display: flex;
+    justify-content: center;
   }
 
   #ec .container2 .card {
@@ -937,9 +946,33 @@ a .medium {
 
 }
 
-@media(max-width: 425px){
-  .box .inbox ul{
-    margin-left: 0px !important;
+@media(max-width: 427px){
+
+  #ec .container .container1 .card ul{
+    margin-left: -1px;
+    
+  }
+
+  #ec .container .container2 .card ul{
+    margin-left: 2px;
+  }
+
+  
+}
+
+@media(max-width: 377px){
+
+  #ec .container .container1 .card ul{
+    margin-left: 13px;
+    
+  }
+}
+
+@media(max-width: 325px){
+
+  #ec .container .container1 .card ul{
+    margin-left: 3px;
+    
   }
 }
 
@@ -1223,7 +1256,7 @@ a .medium {
     width: 100%;
   }
 
-  .inbox ul {
+  #website .inbox ul {
     left: 83px;
   }
 
@@ -1231,15 +1264,28 @@ a .medium {
 }
 
 @media(max-width: 768px){
-  .inbox ul{
+  #website .inbox ul{
     left: 35px;
   };
 }
 
-@media(max-width:550px){
-  .inbox ul{
-    left: 110px;
-  };
+
+@media(max-width: 427px){
+  #website .inbox ul{
+    left: 52px;
+  }
+}
+
+@media(max-width: 377px){
+  #website .inbox ul{
+    left: 27px;
+  }
+}
+
+@media(max-width: 325px){
+  #website .inbox ul{
+    left: 1px;
+  }
 }
 
 #contact-us {
