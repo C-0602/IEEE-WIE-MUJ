@@ -9,7 +9,8 @@ a {
   text-decoration: none !important;
 }
 
-html, body {
+html,
+body {
   overflow-x: hidden;
 }
 
@@ -128,11 +129,11 @@ p {
   -webkit-transition: all 150ms ease-in-out;
   -moz-transition: all 150ms ease-in-out;
   transition: all 150ms ease-in-out;
-  
-  
+
+
 }
 
-.logo:focus{
+.logo:focus {
   background-color: white;
 }
 
@@ -212,18 +213,19 @@ p {
 
 }
 
-@media(max-width: 769px){
-  
-  .navbar-brand{
+@media(max-width: 769px) {
+
+  .navbar-brand {
     width: 13%;
-    
+
   }
 
-  .logo{
+  .logo {
     width: 78px;
   }
-  
+
 }
+
 .banner-content {
   text-align: center;
   padding: 280px 0px 200px 0px;
@@ -513,6 +515,29 @@ p {
 #portfolio .row {
   margin-top: 5px;
 }
+
+#portfolio .more1 {
+
+
+  position: absolute;
+  height: 45px;
+  width: 30%;
+  margin-top: -20px;
+  margin-bottom: 50px;
+  top: 110%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  background-color: #a4508b;
+  background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+  font-family: 'Poppins', sans-serif;
+  padding-top: 10px;
+
+  border-radius: 24px;
+  border: none;
+  color: white;
+}
+
 
 #portfolio .portfolio-item img {
   max-width: 100%;
@@ -845,7 +870,7 @@ a .medium {
   background-color: black;
   justify-content: center;
   align-items: center;
- 
+
   transition: all 0.5s ease;
 
 }
@@ -919,11 +944,11 @@ a .medium {
   }
 }
 
-@media(max-width: 770px){
+@media(max-width: 770px) {
 
-  #ec .container .container1 .card ul{
+  #ec .container .container1 .card ul {
     margin-left: 35px;
-    
+
   }
 }
 
@@ -946,33 +971,33 @@ a .medium {
 
 }
 
-@media(max-width: 427px){
+@media(max-width: 427px) {
 
-  #ec .container .container1 .card ul{
+  #ec .container .container1 .card ul {
     margin-left: -1px;
-    
+
   }
 
-  #ec .container .container2 .card ul{
+  #ec .container .container2 .card ul {
     margin-left: 2px;
   }
 
-  
+
 }
 
-@media(max-width: 377px){
+@media(max-width: 377px) {
 
-  #ec .container .container1 .card ul{
+  #ec .container .container1 .card ul {
     margin-left: 13px;
-    
+
   }
 }
 
-@media(max-width: 325px){
+@media(max-width: 325px) {
 
-  #ec .container .container1 .card ul{
+  #ec .container .container1 .card ul {
     margin-left: 3px;
-    
+
   }
 }
 
@@ -1241,27 +1266,29 @@ a .medium {
 
 }
 
-@media(max-width: 768px){
-  #website .inbox ul{
+@media(max-width: 768px) {
+  #website .inbox ul {
     left: 35px;
-  };
+  }
+
+  ;
 }
 
 
-@media(max-width: 427px){
-  #website .inbox ul{
+@media(max-width: 427px) {
+  #website .inbox ul {
     left: 52px;
   }
 }
 
-@media(max-width: 377px){
-  #website .inbox ul{
+@media(max-width: 377px) {
+  #website .inbox ul {
     left: 27px;
   }
 }
 
-@media(max-width: 325px){
-  #website .inbox ul{
+@media(max-width: 325px) {
+  #website .inbox ul {
     left: 1px;
   }
 }
