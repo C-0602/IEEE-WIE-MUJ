@@ -226,6 +226,15 @@ p {
 
 }
 
+@media(min-width: 770px) and (max-width: 1025px){
+  .navbar-brand{
+    width: 14%;
+  }
+
+  .logo{
+    width: 90px;
+  }
+}
 .banner-content {
   text-align: center;
   padding: 280px 0px 200px 0px;
