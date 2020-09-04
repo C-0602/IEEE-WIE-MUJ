@@ -9,7 +9,8 @@ a {
   text-decoration: none !important;
 }
 
-html, body {
+html,
+body {
   overflow-x: hidden;
 }
 
@@ -128,11 +129,11 @@ p {
   -webkit-transition: all 150ms ease-in-out;
   -moz-transition: all 150ms ease-in-out;
   transition: all 150ms ease-in-out;
-  
-  
+
+
 }
 
-.logo:focus{
+.logo:focus {
   background-color: white;
 }
 
@@ -212,17 +213,17 @@ p {
 
 }
 
-@media(max-width: 769px){
-  
-  .navbar-brand{
+@media(max-width: 769px) {
+
+  .navbar-brand {
     width: 13%;
-    
+
   }
 
-  .logo{
+  .logo {
     width: 78px;
   }
-  
+
 }
 
 @media(min-width: 770px) and (max-width: 1025px){
@@ -523,6 +524,29 @@ p {
 #portfolio .row {
   margin-top: 5px;
 }
+
+#portfolio .more1 {
+
+
+  position: absolute;
+  height: 45px;
+  width: 30%;
+  margin-top: -20px;
+  margin-bottom: 50px;
+  top: 110%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  background-color: #a4508b;
+  background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+  font-family: 'Poppins', sans-serif;
+  padding-top: 10px;
+
+  border-radius: 24px;
+  border: none;
+  color: white;
+}
+
 
 #portfolio .portfolio-item img {
   max-width: 100%;
@@ -855,7 +879,7 @@ a .medium {
   background-color: black;
   justify-content: center;
   align-items: center;
- 
+
   transition: all 0.5s ease;
 
 }
@@ -929,11 +953,11 @@ a .medium {
   }
 }
 
-@media(max-width: 770px){
+@media(max-width: 770px) {
 
-  #ec .container .container1 .card ul{
+  #ec .container .container1 .card ul {
     margin-left: 35px;
-    
+
   }
 }
 
@@ -956,33 +980,33 @@ a .medium {
 
 }
 
-@media(max-width: 427px){
+@media(max-width: 427px) {
 
-  #ec .container .container1 .card ul{
+  #ec .container .container1 .card ul {
     margin-left: -1px;
-    
+
   }
 
-  #ec .container .container2 .card ul{
+  #ec .container .container2 .card ul {
     margin-left: 2px;
   }
 
-  
+
 }
 
-@media(max-width: 377px){
+@media(max-width: 377px) {
 
-  #ec .container .container1 .card ul{
+  #ec .container .container1 .card ul {
     margin-left: 13px;
-    
+
   }
 }
 
-@media(max-width: 325px){
+@media(max-width: 325px) {
 
-  #ec .container .container1 .card ul{
+  #ec .container .container1 .card ul {
     margin-left: 3px;
-    
+
   }
 }
 
@@ -995,7 +1019,6 @@ a .medium {
   color: #333;
   padding-bottom: 10px;
 }
-
 #team h1::after{
   content: '';
   background: #333;
@@ -1004,37 +1027,30 @@ a .medium {
   width: 150px;
   margin: 10px auto;
 }
-
 .profile{
   margin-top: 25px;
 }
-
 .profile .img-box{
   opacity: 1;
   display: block;
   position: relative;
   max-width: 100%;;
-
 }
-
 .profile .img-box img{
   height: 40vh;
   width: 100%;
   display: block;
 }
-
 .profile h2{
   font-size: 22px;
   font-weight: bold;
   margin-top: 15px;
 }
-
 .profile h3{
   font-size: 15px;
   font-weight: bold;
   margin-top: 15px;
 }
-
 .img-box:after{
   content: '';
   opacity: 0;
@@ -1045,7 +1061,6 @@ a .medium {
   top: 0;
   bottom: 0;
 }
-
 .img-box ul{
   margin: 0;
   padding-bottom: 20px 0;
@@ -1057,7 +1072,6 @@ a .medium {
   transform: translateX(-50%);
   opacity: 0;
 }
-
 .img-box ul li{
   width: 30px;
   height: 30px;
@@ -1067,48 +1081,36 @@ a .medium {
   padding: 7px ;
   display: inline-block;
 }
-
 .img-box ul li:hover{
   border-radius: 60%;
 }
-
-
-
 .img-box a{
   color: #fff;
 }
-
 .img-box:hover:after{
   opacity: 1;
 }
-
 .img-box:hover ul{
   opacity: 1 ;
 }
-
 .img-box a li .fa:hover{
  color:  #752f8b;
 }
-
 .img-box a li .fa:hover{
   transition: 0.35s ease;
  }
-
  @media(max-width: 991px){
   #team .img-box{
     width: 50%;
     margin-bottom: 30px;
     
   }
-
 }
-
 @media(max-width: 550px  ){
   #team .img-box{
     width: 100%;
     
   }
-
   
 } */
 
@@ -1273,27 +1275,29 @@ a .medium {
 
 }
 
-@media(max-width: 768px){
-  #website .inbox ul{
+@media(max-width: 768px) {
+  #website .inbox ul {
     left: 35px;
-  };
+  }
+
+  ;
 }
 
 
-@media(max-width: 427px){
-  #website .inbox ul{
+@media(max-width: 427px) {
+  #website .inbox ul {
     left: 52px;
   }
 }
 
-@media(max-width: 377px){
-  #website .inbox ul{
+@media(max-width: 377px) {
+  #website .inbox ul {
     left: 27px;
   }
 }
 
-@media(max-width: 325px){
-  #website .inbox ul{
+@media(max-width: 325px) {
+  #website .inbox ul {
     left: 1px;
   }
 }
